@@ -1,0 +1,27 @@
+{
+  "name": "articles",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "history": "^4.7.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-observable": "^1.0.0",
+    "rxjs": "^6.2.2",
+    "rxjs-compat": "^6.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server:start": "json-server --watch --port=4000 server/index.js",
+    "server:restart": "killall node -9 && json-server --watch --port=4000 server/index.js"
+  }
+}
