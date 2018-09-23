@@ -1,7 +1,7 @@
 import ActionCreator from "../actionCreator"
 
 export default {
-    getCategories: ActionCreator("GET_CATEGORIES"),
-    updateCategories: ActionCreator("UPDATE_CATEGORIES"),
-    getFavoriteCategories: ActionCreator("GET_FAVORITE_CATEGORIES")
+    getCategories: ActionCreator("CATEGORY_GET_CATEGORIES"),
+    updateCategories: ActionCreator("CATEGORY_UPDATE_CATEGORIES"),
+    setError: ActionCreator("CATEGORY_SET_ERROR")
 }

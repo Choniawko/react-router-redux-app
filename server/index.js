@@ -34,7 +34,7 @@ module.exports = () => ({
             name: "Category #2"
         },
         {
-            id: 1,
+            id: 3,
             name: "Category #2"
         }
     ]
